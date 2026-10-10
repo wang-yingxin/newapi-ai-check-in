@@ -1,7 +1,8 @@
 name: newapi.ai 自动签到
 on:
   schedule:
-    - cron: '0 */8 * * *'
+    - cron: '15 1 * * *'
+    - cron: '25 2 * * *'
   workflow_dispatch:
     inputs:
       accounts:
